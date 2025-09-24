@@ -108,11 +108,13 @@ const Footer = () => {
                 </li>
             </ul>
             <div className={styles.hoursContainer}>
-                <h4 className={styles.hoursTitle}>Bussiness Hours</h4>
+                <h4 className={styles.hoursTitle}>Horário de funcionamento
+                </h4>
                 <div className={styles.hoursText}>
-                    <p>Monday - Friday: 8:00 Am - 0:00 PM</p>
-                    <p>Saturday: 9:00 AM - 6:00 PM</p>
-                    <p>Sunday: 10:00 AM - 4:00 PM</p>
+                    <p>Segunda a Sexta: 8h00 – 00h00 (meia-noite)</p>
+                    <p>Sábado: 9h00 – 18h00
+                    </p>
+                    <p>Domingo: 10h00 – 16h00</p>
                 </div>
             </div>
           </div>
@@ -123,7 +125,7 @@ const Footer = () => {
           <span className={styles.underline}></span>
                 </h3>
                 <p className={styles.newsletterText}>
-                    subvribe for especial offers and update
+                subscreva as ofertas especiais e atualizações
                 </p>
 
                 <form className="space-y-3">
@@ -139,7 +141,7 @@ const Footer = () => {
         </div>
         {/*  Copyright*/}
         <div className={styles.copyright}>
-            <p>&copy; {new Date().getFullYear} Luan. All rights Reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Luan. All rights Reserved.</p>
 
         </div>
 

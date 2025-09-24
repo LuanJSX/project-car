@@ -104,9 +104,9 @@ const HomeCars = () => {
 
                 <div className={styles.specsGrid}>
                   {[
-                    { icon: Users, value: car.seats, label: "lugares" },
-                    { icon: Fuel, value: car.fuel, label: "Fuel" },
-                    { icon: Gauge, value: car.mileage, label: "Mileage" },
+                    { icon: Users, value: car.seats, label: "Lugares" },
+                    { icon: Fuel, value: car.fuel, label: "Full" },
+                    { icon: Gauge, value: car.mileage, label: "Rodados" },
                     {
                       icon: CircleCheck,
                       value: car.transmission,

@@ -153,14 +153,14 @@ const Navbar = () => {
                     <span className={styles.authText}>logout</span>
                   </button>
                 ) : (
-                  <button
+                  <Link
                     to="/login"
                     className={styles.authButton}
                     aria-label="Login"
                   >
                     <FaUser className="text-base" />
                     <span className={styles.authText}>Login</span>
-                  </button>
+                  </Link>
                 )}
               </div>
               <div className="md:hidden flex items-center">
