@@ -310,7 +310,7 @@ export const footerStyles = {
   roadLine: "absolute top-12 w-full h-0.5 bg-gradient-to-r from-transparent via-orange-600 to-transparent",
   innerContainer: "relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
   grid: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10 md:gap-12",
-  brandSection: "space-y-4",
+  brandSection: "space-y-2",
   logoContainer: "flex flex-col items-center text-xl md:text-2xl lg:text-2xl leading-none",
   logoText: "font-bold tracking-wider text-white",
   description: "text-gray-400 text-sm sm:text-base",

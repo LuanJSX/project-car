@@ -1,31 +1,30 @@
-// src/data/testimonialsData.js
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "Business Traveler",
+    name: "Ana Souza",
+    role: "Viagem a trabalho",
     comment:
-      "The BMW 5 Series was impeccable! Smooth ride and excellent service with ample space. Will definitely rent again.",
+      "O BMW Série 5 foi impecável! Viagem suave, serviço excelente e muito espaço. Com certeza alugarei novamente.",
     rating: 5,
-    car: "BMW 5 Series",
+    car: "BMW Série 5",
   },
   {
     id: 2,
-    name: "Michael Chen",
-    role: "Family Vacation",
+    name: "Carlos Mendes",
+    role: "Férias em família",
     comment:
-      "Perfect family Toyota Highlander with ample space. Clean, well-maintained, and great value for money.",
+      "O Toyota Highlander foi perfeito para a família, com bastante espaço. Carro limpo, bem cuidado e ótimo custo-benefício.",
     rating: 4,
     car: "Toyota Highlander",
   },
   {
     id: 3,
-    name: "Emma Rodriguez",
-    role: "Road Trip Enthusiast",
+    name: "Mariana Oliveira",
+    role: "Aventureira de estrada",
     comment:
-      "Convertible Ford Mustang made our coastal drive unforgettable! 24/7 support was a lifesaver and value for money. .",
+      "O Ford Mustang conversível tornou nossa viagem pela costa inesquecível! O suporte 24h foi um salva-vidas e valeu muito a pena.",
     rating: 5,
-    car: "Ford Mustang ",
+    car: "Ford Mustang",
   },
 ];
 

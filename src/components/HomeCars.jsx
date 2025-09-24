@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { homeCarsStyles as styles } from "../assets/dummyStyles";
 import carsData from "../../src/assets/HcarsData.js";
-import { Zap, Users, Fuel, Gauge, CircleCheck  } from "lucide-react";
+import { Zap, Users, Fuel, Gauge, CircleCheck, ArrowRight  } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 
@@ -104,13 +104,13 @@ const HomeCars = () => {
 
                 <div className={styles.specsGrid}>
                   {[
-                    { icon: Users, value: car.seats, label: "Seats" },
+                    { icon: Users, value: car.seats, label: "lugares" },
                     { icon: Fuel, value: car.fuel, label: "Fuel" },
                     { icon: Gauge, value: car.mileage, label: "Mileage" },
                     {
                       icon: CircleCheck,
                       value: car.transmission,
-                      label: "Trans",
+                      label: "Câmbio",
                     },
                   ].map((spec, i) => (
                     <div key={i} className={styles.specItem}>
@@ -122,6 +122,17 @@ const HomeCars = () => {
                     </div>
                   ))}
                 </div>
+                 <button onClick={() =>
+                  navigate(`/cars/${car.id}`, {state: {car}})
+                 } className={styles.bookButton}>
+                  <span className={styles.buttonText}>
+                   Reservar agora
+                    <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </span>
+                 </button>
+              </div>
+              <div className={styles.accentBlur}>
+
               </div>
             </div>
           );
